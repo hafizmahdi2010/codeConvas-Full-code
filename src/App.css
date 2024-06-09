@@ -1,0 +1,89 @@
+.tab.active {
+  background-color: #313136;
+  color: white
+}
+
+body{
+  overflow-x: hidden;
+}
+
+html{
+  overflow-x: hidden;
+}
+.tab{
+  text-align: start;
+  justify-content: start;
+  padding-left: 10px;
+}
+.tab img{
+  width: 20px;
+  margin-right: 5px;
+}
+.tab:nth-child(2) img{
+  width: 15px;
+}
+
+.editorleft.fullScreenCode{
+  min-width: 100%;
+}
+
+.toggleModeBtn {
+  width: 46px;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+  height: 25px;
+  padding: 0px 4px;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.toggleModeBtn .dot {
+  position: absolute;
+  transition: right ease .3s;
+}
+
+.toggleModeBtn .dot i {
+  font-size: 17px;
+  color: #fff;
+}
+
+.toggleModeBtn .dot.active {
+  right: 2px;
+}
+
+body.lightTheme {
+  background-color: #f7f7f7 !important;
+  color: #000 !important;
+}
+
+.lightTheme .conMain {
+  background-color: #f7f7f7 !important;
+  color: #000 !important;
+}
+
+.lightTheme .editorcon {
+  background-color: #fff;
+  color: #000;
+}
+
+.lightTheme .tabs .tab {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+.lightTheme .tabs .tab.active {
+  background-color: #dadada;
+}
+
+.lightTheme .toggleModeBtn{
+  background-color: #dadada;
+}
+
+.lightTheme .dot{
+  transform: rotate(250deg);
+}
+
+.lightTheme .toggleModeBtn .dot i{
+  color: #000;
+}
